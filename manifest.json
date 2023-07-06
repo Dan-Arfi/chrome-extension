@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Google to YouTube Redirect",
+    "version": "1.0",
+    "author": "Dan Arfi",
+    "description": "Redirects from Google to YouTube",
+    "permissions": ["tabs"],
+    "background": {
+        "service_worker": "background.js"
+    }
+  }
